@@ -113,7 +113,7 @@ class WeatherDetailRow extends StatelessWidget {
             _DetailCard(
               icon: Icons.visibility_rounded,
               label: 'Visibility',
-              value: '${(weather.visibility / 1000).toStringAsFixed(1)}',
+              value: (weather.visibility / 1000).toStringAsFixed(1),
               subtitle: 'km',
               color: AppColors.accentOrange,
             ),
