@@ -11,6 +11,8 @@ class WeatherService {
 
     if (response.statusCode == 200) {
       return WeatherModel.fromJson(json.decode(response.body));
+    } else if (response.statusCode == 401) {
+      throw WeatherException('API key not active yet — new OpenWeatherMap keys can take up to 2 hours to activate. Please wait and try again!');
     } else {
       throw WeatherException('Failed to load weather data: ${response.statusCode}');
     }
@@ -22,6 +24,8 @@ class WeatherService {
 
     if (response.statusCode == 200) {
       return ForecastModel.fromJson(json.decode(response.body));
+    } else if (response.statusCode == 401) {
+      throw WeatherException('API key not active yet — please wait up to 2 hours after signup.');
     } else {
       throw WeatherException('Failed to load forecast data: ${response.statusCode}');
     }
