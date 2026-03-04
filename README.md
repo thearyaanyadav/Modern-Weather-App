@@ -6,7 +6,7 @@ A **stupidly beautiful** Flutter weather app that makes you *want* to check the 
 
 ---
 
-## ✨ What Makes This Different
+##  What Makes This Different
 
 This isn't your grandma's weather app. We went full overkill:
 
@@ -117,7 +117,7 @@ static const String unsplashAccessKey = 'YOUR_UNSPLASH_ACCESS_KEY';
 flutter run
 ```
 
-Grant location permission when prompted, and watch the magic happen. ✨
+Grant location permission when prompted, and watch the magic happen. 
 
 ---
 
