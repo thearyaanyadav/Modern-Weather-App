@@ -31,7 +31,7 @@ This isn't your grandma's weather app. We went full overkill:
 -  **City search** — 12 popular cities + recent history
 -  **Dark / Light mode** — Toggle in-app, defaults to dark (as it should)
 -  **Geolocation** — Auto-detects your city on first launch
-- °C/°F **Unit toggle** — For our friends across the pond 🇺🇸🇬🇧
+- °C/°F **Unit toggle** — For our friends across the pond 
 -  **Weather details** — Wind, humidity, pressure, visibility, sunrise/sunset
 
 ---
@@ -83,7 +83,7 @@ server/                           #  Optional Python proxy
 
 ---
 
-## 🚀 Getting Started
+## Setup Process
 
 ### Prerequisites
 - Flutter SDK installed
@@ -107,7 +107,7 @@ static const String weatherApiKey = 'YOUR_OPENWEATHER_API_KEY';
 static const String unsplashAccessKey = 'YOUR_UNSPLASH_ACCESS_KEY';
 ```
 
-🔑 Get free keys:
+ Get free keys:
 - **OpenWeatherMap** → [openweathermap.org/api](https://openweathermap.org/api) (sign up, free tier, 60 calls/min)
 - **Unsplash** → [unsplash.com/developers](https://unsplash.com/developers) (register an app)
 
@@ -121,7 +121,7 @@ Grant location permission when prompted, and watch the magic happen. ✨
 
 ---
 
-## 🐍 Python Proxy Server (Optional)
+##  Python Proxy Server (Optional)
 
 Don't want API keys baked into your APK? Use the included FastAPI proxy:
 
@@ -145,7 +145,7 @@ Then point your Flutter app to `http://localhost:8000` instead of the APIs direc
 
 ---
 
-## 🎨 Design Philosophy
+##  Design Philosophy
 
 > *We don't do boring.*
 
@@ -159,18 +159,20 @@ Every pixel of this app was designed to make weather data feel **alive**:
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
-> *Coming soon — run the app and see for yourself!*
+| Home Screen | Top of the Page | Bottom of the Page |
+|:-----------:|:------:|:---------:|
+| ![Home Screen](https://i.imgur.com/xKGi3xG.jpeg) | ![Top of the Page](https://i.imgur.com/4OJH0js.jpeg) | ![Bottom of the Page](https://i.imgur.com/WsDNjkT.jpeg) |
 
 ---
 
-## 📝 License
+##  License
 
 Do whatever you want with it. Seriously. Just don't blame us if you become obsessed with checking the weather.
 
 ---
 
 <p align="center">
-  Made with 🧡 and an unhealthy amount of <code>BoxDecoration</code>
+  Hand coded with some vibing to <code>Restructure</code> the code and make it look nice.
 </p>
