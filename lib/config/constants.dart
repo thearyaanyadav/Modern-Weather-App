@@ -1,11 +1,11 @@
 class AppConstants {
   // OpenWeatherMap API (direct - for demo/portfolio use)
   static const String weatherBaseUrl = 'https://api.openweathermap.org/data/2.5';
-  static const String weatherApiKey = '6c62dde1884d5af5c1c6d87f5794c1e0'; // Replace with your key
+  static const String weatherApiKey = 'YOUR OPENWEATHER API KEY'; // Replace with your key
 
   // Unsplash API
   static const String unsplashBaseUrl = 'https://api.unsplash.com';
-  static const String unsplashAccessKey = '9CvrR-ZbHzQSAeSECnRzkwPnUYSXThcg2sD2ACbFNj4'; // Replace with your key
+  static const String unsplashAccessKey = 'YOUR UNSPLASH API KEY'; // Replace with your key
 
   // Default settings
   static const String defaultUnits = 'metric'; // metric = Celsius, imperial = Fahrenheit
